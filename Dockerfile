@@ -12,6 +12,9 @@ RUN apk add jq
 # Install node and npm
 RUN apk add nodejs nodejs-npm
 
+# Install zip
+RUN apk add zip
+
 # Install python3.6
 RUN apk add --no-cache python3 && \
     python3 -m ensurepip && \

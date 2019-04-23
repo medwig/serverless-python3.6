@@ -14,4 +14,5 @@ Contains:
 - serverless framework
 - bash
 - jq
+- zip
 
