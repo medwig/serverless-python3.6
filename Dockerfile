@@ -1,5 +1,5 @@
 # Starts with base Terraform image on Alpine Linux
-FROM FROM node:lts-alpine
+FROM node:lts-alpine
 
 RUN apk update 
 
