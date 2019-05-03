@@ -3,6 +3,9 @@ FROM python:3.6-stretch
 
 RUN apt update 
 
+# Install zip
+RUN apt-get install -y zip
+
 # Install jq
 RUN apt-get install -y jq
 
